@@ -50,16 +50,19 @@ function Business() {
             <h1 className="text-6xl font-medium">
               Get on the mark feedback strait to the point.
             </h1>
+            <p>Image to come</p>
           </div>
           <div className="rounded-md bg-[#F5013A] p-5">
             <h1 className=" text-2xl font-medium">
               Hear your users voice on every platform.
             </h1>
+            <p>graphic to come</p>
           </div>
           <div className=" rounded-md bg-slate-50 p-5">
             <h1 className=" text-2xl font-medium text-[#020617]">
               Automatic sorting of issues based on type.
             </h1>
+            <p>graphic to come</p>
           </div>
         </div>
       </section>
