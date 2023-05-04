@@ -2,9 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { SignInButton, SignOutButton, SignUp, useUser } from "@clerk/nextjs";
 import { type NextPage } from "next";
-import { trpc } from "../utils/trpc";
 import type { inferProcedureOutput } from "@trpc/server";
-import type { AppRouter } from "@acme/api";
 import { useAuth, UserButton } from "@clerk/nextjs";
 import { useRouter } from "next/router";
 
