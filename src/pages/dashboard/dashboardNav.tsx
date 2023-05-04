@@ -47,7 +47,7 @@ function Header() {
               </ul>
             </div>
             <div>
-              <h1 className="text-slate-400">Dashboards</h1>
+              <h1 className="font-light text-slate-400">Dashboards</h1>
               <ul className="flex list-inside flex-col gap-2 pt-2 text-slate-900">
                 <li
                   className={
@@ -60,46 +60,46 @@ function Header() {
                 </li>
                 <li
                   className={
-                    currentPath === "/dashboard/projects/[[...index]]"
+                    currentPath === "/dashboard/services/[[...index]]"
                       ? "rounded-md border-l-4 border-slate-800 bg-slate-200 px-3"
                       : " rounded-md px-3 hover:bg-slate-200/75"
                   }
                 >
-                  <Link href="/">By Projects</Link>
+                  <Link href="/">Products & Services</Link>
                 </li>
                 <li
                   className={
-                    currentPath === "/dashboard/collections/[[...index]]"
+                    currentPath === "/dashboard/usersattention/[[...index]]"
                       ? "rounded-md border-l-4 border-slate-800 bg-slate-200 px-3"
                       : " rounded-md px-3 hover:bg-slate-200/75"
                   }
                 >
-                  <Link href="/">By Collections</Link>
+                  <Link href="/">User Attention</Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h1 className="text-slate-400">Pages</h1>
+              <h1 className="font-light text-slate-400">System</h1>
               <ul className="flex list-inside flex-col gap-2 px-3 pt-2">
                 <li
                   className={
-                    currentPath === "/dashboard/page/[[...index]]"
+                    currentPath === "/dashboard/collection/[[...index]]"
                       ? "rounded-md border-l-4 border-slate-800 bg-slate-200 px-3"
                       : " rounded-md px-3 hover:bg-slate-200/75"
                   }
                 >
-                  <Link href="/">Products</Link>
+                  <Link href="/">Collection</Link>
                 </li>
                 <li
                   className={
-                    currentPath === "/dashboard/product/[[...index]]"
+                    currentPath === "/dashboard/structure/[[...index]]"
                       ? "rounded-md border-l-4 border-slate-800 bg-slate-200 px-3"
                       : " rounded-md px-3 hover:bg-slate-200/75"
                   }
                 >
-                  <Link href="/">Account</Link>
+                  <Link href="/">Internal Structure</Link>
                 </li>
-                <li
+                {/* <li
                   className={
                     currentPath === "/dashboard/account/[[...index]]"
                       ? "rounded-md border-l-4 border-slate-800 bg-slate-200 px-3"
@@ -107,24 +107,24 @@ function Header() {
                   }
                 >
                   <Link href="/">User groups</Link>
-                </li>
+                </li> */}
                 <li
                   className={
-                    currentPath === "/dashboard/usergroup/[[...index]]"
+                    currentPath === "/dashboard/routes/[[...index]]"
                       ? "rounded-md border-l-4 border-slate-800 bg-slate-200 px-3"
                       : " rounded-md px-3 hover:bg-slate-200/75"
                   }
                 >
-                  <Link href="/">Workshops</Link>
+                  <Link href="/">Routes</Link>
                 </li>
                 <li
                   className={
-                    currentPath === "/dashboard/social/[[...index]]"
+                    currentPath === "/dashboard/targets/[[...index]]"
                       ? "rounded-md border-l-4 border-slate-800 bg-slate-200 px-3"
                       : " rounded-md px-3 hover:bg-slate-200/75"
                   }
                 >
-                  <Link href="/">Social</Link>
+                  <Link href="/">Targets</Link>
                 </li>
               </ul>
             </div>

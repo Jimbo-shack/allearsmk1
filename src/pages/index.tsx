@@ -15,7 +15,7 @@ function Business() {
   const user = useUser();
 
   return (
-    <main className="flex flex-col items-center scroll-smooth bg-header text-white antialiased selection:bg-redPrimary selection:text-backgroundold">
+    <main className="flex w-screen flex-col items-center overflow-x-hidden scroll-smooth bg-header text-white antialiased selection:bg-redPrimary selection:text-backgroundold">
       <section className="flex h-screen w-full flex-col items-center overflow-hidden antialiased">
         <BackGroundRadar />
         <Targets />
