@@ -1,5 +1,6 @@
 import { createTRPCRouter } from "~/server/api/trpc";
 import { submissionRouter } from "./routers/submissions";
+import { interpretationRouter } from "./routers/interpretation";
 
 /**
  * This is the primary router for your server.
@@ -8,6 +9,7 @@ import { submissionRouter } from "./routers/submissions";
  */
 export const appRouter = createTRPCRouter({
   submission: submissionRouter,
+  interpretation: interpretationRouter,
 });
 
 // export type definition of API

@@ -1,9 +1,9 @@
 import { SignUp } from "@clerk/nextjs";
-import BackGroundRadar from "../backGroundRadar";
+import BackGroundRadar from "../../components/backGroundRadar";
 import Header from "../Header";
 
 const SignUpPage = () => (
-  <main className="bg-header selection:bg-redPrimary selection:text-background flex h-screen flex-col items-center text-white ">
+  <main className="flex h-screen flex-col items-center bg-header text-white selection:bg-redPrimary selection:text-background ">
     <BackGroundRadar />
     <Header />
     <div className="z-50 flex flex-col items-center justify-center gap-4">

@@ -20,11 +20,11 @@ export const Icons = {
       fill="none"
       {...props}
     >
-      <path d="M13.5 36.5L0.999999 36.5L1 24" stroke="white" stroke-width="2" />
-      <path d="M36 24V36.5H23.5" stroke="white" stroke-width="2" />
-      <path d="M23.5 1.5L36 1.5L36 14" stroke="white" stroke-width="2" />
-      <path d="M1 14L0.999999 1.5L13.5 1.5" stroke="white" stroke-width="2" />
-      <circle cx="18.5" cy="19" r="8.5" stroke="white" stroke-width="2" />
+      <path d="M13.5 36.5L0.999999 36.5L1 24" stroke="white" strokeWidth="2" />
+      <path d="M36 24V36.5H23.5" stroke="white" strokeWidth="2" />
+      <path d="M23.5 1.5L36 1.5L36 14" stroke="white" strokeWidth="2" />
+      <path d="M1 14L0.999999 1.5L13.5 1.5" stroke="white" strokeWidth="2" />
+      <circle cx="18.5" cy="19" r="8.5" stroke="white" strokeWidth="2" />
     </svg>
   ),
   gitHub: (props: LucideProps) => (

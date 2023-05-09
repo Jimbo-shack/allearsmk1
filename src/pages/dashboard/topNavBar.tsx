@@ -9,7 +9,7 @@ function TopNavBar() {
   const currentPath = router.pathname;
 
   return (
-    <div className=" flex h-14 w-screen border-b border-slate-200 text-slate-900">
+    <div className=" flex h-14 w-full grow border-b border-slate-200 text-slate-900">
       <div className=" ml-auto"></div>
     </div>
   );

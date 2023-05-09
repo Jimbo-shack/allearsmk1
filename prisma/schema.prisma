@@ -15,10 +15,20 @@ generator client {
 model submission {
     id        String   @id @default(cuid())
     createdAt DateTime @default(now())
-
-    content String @db.VarChar(255)
+    content String @db.VarChar(400)
     source String @db.VarChar(30)
     autherId String
 
   @@index([autherId])
+}
+
+model interpretation {
+    id        String   @id @default(cuid())
+    createdAt DateTime @default(now())
+    content String @db.VarChar(400)
+    submissionreference String @db.VarChar(30)
+    subject String @db.VarChar(40)
+    autherId String
+
+  @@index([subject])
 }

@@ -1,7 +1,7 @@
 import { SignIn } from "@clerk/nextjs";
-import BackGroundRadar from "../backGroundRadar";
+import BackGroundRadar from "../../components/backGroundRadar";
 import Header from "../Header";
-import Targets from "../targets";
+import Targets from "../../components/targets";
 
 const SignInPage = () => (
   <main className="flex h-screen flex-col items-center bg-header text-white selection:bg-redPrimary selection:text-background">

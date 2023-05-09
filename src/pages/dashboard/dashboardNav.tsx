@@ -60,7 +60,7 @@ function Header() {
                 </li>
                 <li
                   className={
-                    currentPath === "/dashboard/services/[[...index]]"
+                    currentPath === "/dashboard/services /[[...index]]"
                       ? "rounded-md border-l-4 border-slate-800 bg-slate-200 px-3"
                       : " rounded-md px-3 hover:bg-slate-200/75"
                   }

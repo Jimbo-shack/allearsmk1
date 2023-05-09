@@ -1,6 +1,6 @@
 import React from "react";
-import BackGroundRadar from "./backGroundRadar";
-import Targets from "./targets";
+import BackGroundRadar from "../components/backGroundRadar";
+import Targets from "../components/targets";
 import Header from "./Header";
 import Link from "next/link";
 import {
@@ -15,11 +15,11 @@ function Business() {
   const user = useUser();
 
   return (
-    <main className="flex w-screen flex-col items-center overflow-x-hidden scroll-smooth bg-header text-white antialiased selection:bg-redPrimary selection:text-backgroundold">
-      <section className="flex h-screen w-full flex-col items-center overflow-hidden antialiased">
+    <main className="flex w-screen flex-col items-center overflow-hidden scroll-smooth bg-header text-white antialiased selection:bg-redPrimary selection:text-backgroundold">
+      <Header />
+      <section className="flex h-screen w-full flex-col items-center overflow-hidden">
         <BackGroundRadar />
         <Targets />
-        <Header />
         <div className="container z-10 mx-auto flex animate-textFadeTwo flex-col items-center justify-center gap-6 px-4">
           <h1 className=" mt-16 text-center text-8xl font-bold text-white">
             ALL EARS
